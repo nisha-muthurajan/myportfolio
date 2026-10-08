@@ -1,8 +1,8 @@
 import React from "react";
 
 const achievements = [
-  "Winner – PyExpo Innovation Challenge 2025",
-  "Hackathon Finalist – AI for Accessibility",
+  "Finalist – PyExpo Innovation Challenge 2025",
+  "Hackathon Runner-up – 11:11 Hackathon",
   "Coursera Certificate – Machine Learning (Andrew Ng)",
   "Completed Data Visualization with Python (IBM Skills Network)",
 ];
