@@ -8,12 +8,16 @@ const achievements = [
 ];
 
 const Achievements = () => (
-  <div className="section-container text-center">
-    <h2 className="section-title">Achievements & Certificates</h2>
-    <ul className="list-unstyled mt-3">
+  <div className="section-container achievements-section">
+    <div className="section-heading">
+      <span className="section-eyebrow">Milestones</span>
+      <h2 className="section-title">Achievements &amp; Certificates</h2>
+    </div>
+    <ul className="achievement-list">
       {achievements.map((a, i) => (
-        <li key={i} className="mb-2">
-          🏅 {a}
+        <li key={i} className="achievement-item">
+          <span className="achievement-dot">✦</span>
+          <span>{a}</span>
         </li>
       ))}
     </ul>
